@@ -1,21 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-10T22:50:11-04:00</updated><id>http://localhost:4000/</id><title type="html">Bradley Zhou</title><entry><title type="html">🖥 LILisp</title><link href="http://localhost:4000/lilisp/" rel="alternate" type="text/html" title="🖥 LILisp" /><published>2018-07-10T00:00:00-04:00</published><updated>2018-07-10T00:00:00-04:00</updated><id>http://localhost:4000/lilisp</id><content type="html" xml:base="http://localhost:4000/lilisp/"></content><author><name></name></author><category term="project" /><summary type="html"></summary></entry><entry><title type="html">🎙️ gPodder Podcast Engine</title><link href="http://localhost:4000/gpodder-engine/" rel="alternate" type="text/html" title="🎙️ gPodder Podcast Engine" /><published>2018-06-16T00:00:00-04:00</published><updated>2018-06-16T00:00:00-04:00</updated><id>http://localhost:4000/gpodder-engine</id><content type="html" xml:base="http://localhost:4000/gpodder-engine/">&lt;p&gt;Example of project - Indigo Minimalist Jekyll Template - &lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Demo&lt;/a&gt;. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-11T00:28:03-04:00</updated><id>http://localhost:4000/</id><title type="html">Bradley Zhou</title><entry><title type="html">🖥 LILisp</title><link href="http://localhost:4000/lilisp/" rel="alternate" type="text/html" title="🖥 LILisp" /><published>2018-07-10T00:00:00-04:00</published><updated>2018-07-10T00:00:00-04:00</updated><id>http://localhost:4000/lilisp</id><content type="html" xml:base="http://localhost:4000/lilisp/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/lilisp.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;What has inside?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Gulp&lt;/li&gt;
-  &lt;li&gt;BrowserSync&lt;/li&gt;
-  &lt;li&gt;Stylus&lt;/li&gt;
-  &lt;li&gt;SVG&lt;/li&gt;
-  &lt;li&gt;Travis&lt;/li&gt;
-  &lt;li&gt;No JS&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F&quot;&gt;98/100&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;This project shared concepts with many of my previous assignments, namely 122’s Clac and C0VM, and 213’s Shell Lab. This project also served as a way for me to further explore my interest in systems programming. Additionally, much inspiration came from Daniel Holden’s book &lt;em&gt;Build Your Own Lisp&lt;/em&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Check it out&lt;/a&gt; here.
-If you need some help, just &lt;a href=&quot;http://github.com/sergiokopplin/indigo/issues&quot;&gt;tell me&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Example of project - Indigo Minimalist Jekyll Template - Demo. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</summary></entry><entry><title type="html">🤖 HQ Helping Hand</title><link href="http://localhost:4000/hq-helpinghand/" rel="alternate" type="text/html" title="🤖 HQ Helping Hand" /><published>2018-05-11T00:00:00-04:00</published><updated>2018-05-11T00:00:00-04:00</updated><id>http://localhost:4000/hq-helpinghand</id><content type="html" xml:base="http://localhost:4000/hq-helpinghand/">&lt;p&gt;&lt;img src=&quot;assets/hq-helpinghand.png&quot; alt=&quot;Screenshot&quot; /&gt;
-This was hacked together over the span of about a day or two, so the search and answer algorithm could use some work. This mainly serves as a proof of concept for the idea that search can be automated successfully within the ten second time frame.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">This was hacked together over the span of about a day or two, so the search and answer algorithm could use some work. This mainly serves as a proof of concept for the idea that search can be automated successfully within the ten second time frame.</summary></entry></feed>
+&lt;h2 id=&quot;functionality&quot;&gt;Functionality&lt;/h2&gt;
+&lt;p&gt;I used the Micro Parser Combinators library to automagically parse each input line into an Abstract Syntax Tree. These were then converted into trees of what I defined as “lisp_vals,” which have one of many different types including numbers, symbols, or functions. Features of this implementation include builtin functions, user defined functions, recursion, loading files, conditionals, variables, mathematical and logical operations, and error handling. A more detailed list of functions can be found in the README &lt;a href=&quot;https://github.com/bradley-z/LILisp/blob/master/README.md&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;This project was definitely one of those that demonstrated the beauty (and delicacy) of C. Like Malloc Lab, this project was littered with seg faults and pointer errors; one malloc call of the wrong size could break all my functions. As someone who’s favorite lab was Malloc, I found working through these errors to be rewarding, albeit definitely frustrating at times.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bradley-z/LILisp&quot;&gt;GitHub repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html"></summary></entry><entry><title type="html">🎙️ gPodder Podcast Engine</title><link href="http://localhost:4000/gpodder-engine/" rel="alternate" type="text/html" title="🎙️ gPodder Podcast Engine" /><published>2018-06-16T00:00:00-04:00</published><updated>2018-06-16T00:00:00-04:00</updated><id>http://localhost:4000/gpodder-engine</id><content type="html" xml:base="http://localhost:4000/gpodder-engine/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/podcast_engine_one.png&quot; alt=&quot;Screenshot&quot; /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/podcast_engine_two.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Capital One’s Software Engineering Summit is a selective week long summit held at Capital One Labs just outside DC. This web app served as the final portion of the application to the summit and its purpose was to organize podcast subscriptions, visualize popular podcasts, and recommend new podcasts utilizing the API of a service called gPodder.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;functionality&quot;&gt;Functionality&lt;/h2&gt;
+&lt;p&gt;The main frameworks used were Flask for the backend and Bootstrap for the frontend. Additional tools used include mygpoclient to access gPodder’s API, Requests to issue GET requests to other HTML pages, Beautiful Soup to parse such requests, thesauropod to generate recommendations, and Word Cloud to generate frequency visualizations. Features of this web app include search, listing subscriptions, searching by and within genre, suggesting what podcast one should listen to first, giving recommendations for new podcasts, data visualizations, and logins to view one’s own subscription data.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;When I was first issued this challenge, I was very intimidated; my experience with any kind of web development or even any project outside a class assignment was essentially none. In fact, it took me two or three days just to pick a framework to use. I also faced challenges with the API, given that it wasn’t very robust and I had no experience working with REST APIs before. But once I picked a framework and started learning the basics, the rest was relatively repetitive. But overall, this one project taught me a lot about web development regardless of whether or not it was selected for the summit.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bradley-z/Capital-One-Mindsumo&quot;&gt;GitHub repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bradleyzhou-capital-one.herokuapp.com/&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html"></summary></entry><entry><title type="html">🤖 HQ Helping Hand</title><link href="http://localhost:4000/hq-helpinghand/" rel="alternate" type="text/html" title="🤖 HQ Helping Hand" /><published>2018-05-11T00:00:00-04:00</published><updated>2018-05-11T00:00:00-04:00</updated><id>http://localhost:4000/hq-helpinghand</id><content type="html" xml:base="http://localhost:4000/hq-helpinghand/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/hq-helpinghand.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;This was one of the first projects I created outside of the classroom. The inspiration came from a time when a bunch of us were obsessed with the game and would play almost every day. Another online bot, HQuack, was shut down before any of us knew about it, so as a fun exercise, I decided to try and program my own.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;functionality&quot;&gt;Functionality&lt;/h2&gt;
+&lt;p&gt;This program works by utilizing Tesseract OCR to extract the question and possible answers text from a screenshot. The program then uses Google Search API to search a formatted version of the question. Finally, the program iterates through the search results and returns the most probable answer from these results.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;This program’s inconvenience relegates it to more of a proof of concept than an actual practical tool during live games. After, all this was hacked together over the span of only about a day or two. But it does support the idea that search can be successfully automated within the ten second time frame. I’m sure that some more fine tuning and adding the ability to input live screenshots would make this actually practical.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bradley-z/HQ-HelpingHand&quot;&gt;GitHub repo&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html"></summary></entry></feed>
