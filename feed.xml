@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-11T00:28:03-04:00</updated><id>http://localhost:4000/</id><title type="html">Bradley Zhou</title><entry><title type="html">🖥 LILisp</title><link href="http://localhost:4000/lilisp/" rel="alternate" type="text/html" title="🖥 LILisp" /><published>2018-07-10T00:00:00-04:00</published><updated>2018-07-10T00:00:00-04:00</updated><id>http://localhost:4000/lilisp</id><content type="html" xml:base="http://localhost:4000/lilisp/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/lilisp.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-11T11:12:10-04:00</updated><id>http://localhost:4000/</id><title type="html">Bradley Zhou</title><entry><title type="html">🖥 LILisp</title><link href="http://localhost:4000/lilisp/" rel="alternate" type="text/html" title="🖥 LILisp" /><published>2018-07-10T00:00:00-04:00</published><updated>2018-07-10T00:00:00-04:00</updated><id>http://localhost:4000/lilisp</id><content type="html" xml:base="http://localhost:4000/lilisp/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/lilisp.gif&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -13,7 +13,7 @@
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
-&lt;p&gt;This project was definitely one of those that demonstrated the beauty (and delicacy) of C. Like Malloc Lab, this project was littered with seg faults and pointer errors; one malloc call of the wrong size could break all my functions. As someone who’s favorite lab was Malloc, I found working through these errors to be rewarding, albeit definitely frustrating at times.&lt;/p&gt;
+&lt;p&gt;This project was definitely one of those that demonstrated the beauty (and delicacy) of C. Like Malloc Lab, this project was littered with seg faults and pointer errors; one malloc call of the wrong size could break all my functions. But as someone who’s favorite lab was Malloc, I found working through these errors to be rewarding, albeit definitely frustrating at times.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -33,7 +33,7 @@
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
-&lt;p&gt;When I was first issued this challenge, I was very intimidated; my experience with any kind of web development or even any project outside a class assignment was essentially none. In fact, it took me two or three days just to pick a framework to use. I also faced challenges with the API, given that it wasn’t very robust and I had no experience working with REST APIs before. But once I picked a framework and started learning the basics, the rest was relatively repetitive. But overall, this one project taught me a lot about web development regardless of whether or not it was selected for the summit.&lt;/p&gt;
+&lt;p&gt;When I was first issued this challenge, I was very intimidated; my experience with any kind of web development or even any project outside a class assignment was essentially none. In fact, it took me two or three days just to pick a framework to use. I also faced challenges with the API, given that it wasn’t very robust and I had no experience working with REST before. But once I picked a framework and started learning the basics, the rest was relatively repetitive. But overall, this one project taught me a lot about web development regardless of whether or not it was selected for the summit.&lt;/p&gt;
 
 &lt;hr /&gt;
 
