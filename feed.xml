@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-06-27T19:12:42-04:00</updated><id>/</id><title type="html">Bradley Zhou</title></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-10T22:44:57-04:00</updated><id>http://localhost:4000/</id><title type="html">Bradley Zhou</title><entry><title type="html">🖥 LILisp</title><link href="http://localhost:4000/lilisp/" rel="alternate" type="text/html" title="🖥 LILisp" /><published>2018-07-10T00:00:00-04:00</published><updated>2018-07-10T00:00:00-04:00</updated><id>http://localhost:4000/lilisp</id><content type="html" xml:base="http://localhost:4000/lilisp/"></content><author><name></name></author><category term="project" /><summary type="html"></summary></entry><entry><title type="html">🎙️ gPodder Podcast Engine</title><link href="http://localhost:4000/gpodder-engine/" rel="alternate" type="text/html" title="🎙️ gPodder Podcast Engine" /><published>2018-06-16T00:00:00-04:00</published><updated>2018-06-16T00:00:00-04:00</updated><id>http://localhost:4000/gpodder-engine</id><content type="html" xml:base="http://localhost:4000/gpodder-engine/">&lt;p&gt;Example of project - Indigo Minimalist Jekyll Template - &lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Demo&lt;/a&gt;. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What has inside?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gulp&lt;/li&gt;
+  &lt;li&gt;BrowserSync&lt;/li&gt;
+  &lt;li&gt;Stylus&lt;/li&gt;
+  &lt;li&gt;SVG&lt;/li&gt;
+  &lt;li&gt;Travis&lt;/li&gt;
+  &lt;li&gt;No JS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F&quot;&gt;98/100&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Check it out&lt;/a&gt; here.
+If you need some help, just &lt;a href=&quot;http://github.com/sergiokopplin/indigo/issues&quot;&gt;tell me&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Example of project - Indigo Minimalist Jekyll Template - Demo. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</summary></entry><entry><title type="html">🤖 HQ Helping Hand</title><link href="http://localhost:4000/hq-helpinghand/" rel="alternate" type="text/html" title="🤖 HQ Helping Hand" /><published>2018-05-11T00:00:00-04:00</published><updated>2018-05-11T00:00:00-04:00</updated><id>http://localhost:4000/hq-helpinghand</id><content type="html" xml:base="http://localhost:4000/hq-helpinghand/">&lt;p&gt;&lt;img src=&quot;assets/hq-helpinghand.png&quot; alt=&quot;Screenshot&quot; /&gt;
+This was hacked together over the span of about a day or two, so the search and answer algorithm could use some work. This mainly serves as a proof of concept for the idea that search can be automated successfully within the ten second time frame.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">This was hacked together over the span of about a day or two, so the search and answer algorithm could use some work. This mainly serves as a proof of concept for the idea that search can be automated successfully within the ten second time frame.</summary></entry></feed>
