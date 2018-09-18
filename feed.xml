@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-11T13:49:10-04:00</updated><id>http://localhost:4000/</id><title type="html">Bradley Zhou</title><entry><title type="html">Reflection on Summer 2018</title><link href="http://localhost:4000/summer2018-reflection/" rel="alternate" type="text/html" title="Reflection on Summer 2018" /><published>2018-08-20T00:00:00-04:00</published><updated>2018-08-20T00:00:00-04:00</updated><id>http://localhost:4000/summer2018-reflection</id><content type="html" xml:base="http://localhost:4000/summer2018-reflection/">&lt;p&gt;As my freshman year summer comes to an end, I wanted to gather all my thoughts and experiences from the last few months and organize all of it as a way to keep track of personal growth.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-17T21:38:05-04:00</updated><id>http://localhost:4000/</id><title type="html">Bradley Zhou</title><entry><title type="html">🖌 u&amp;amp;i</title><link href="http://localhost:4000/u&i/" rel="alternate" type="text/html" title="🖌 u&amp;i" /><published>2018-09-09T00:00:00-04:00</published><updated>2018-09-09T00:00:00-04:00</updated><id>http://localhost:4000/u&amp;i</id><content type="html" xml:base="http://localhost:4000/u&amp;i/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/u&amp;amp;i.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;This was created for PennApps XVIII, which was my first “real” hackathon. Given our entire team’s experience with web development, we sought a way to expedite the front end design process. We also wanted a way to help those that are artistically gifted yet might not have the technical experience required for web work.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;functionality&quot;&gt;Functionality&lt;/h2&gt;
+&lt;p&gt;Users draw the layout of a website on a sheet of paper. The user’s phone is positioned on top of the acrylic mount where the phone camera records each iteration of their sketch in real time, which is then translated directly to a live website, displayed on the user’s computer.&lt;/p&gt;
+
+&lt;p&gt;Using a mobile app created using React Native, our smartphone camera intermittently takes photos and sends them directly to a Flask API hosted on Heroku. This API then takes the image of the paper website layout and processes it and isolates each of its components using OpenCV. We then differentiate between each type of component, such as images and text, and reformat them to HTML. Finally, the rendered HTML is displayed live on the same website&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;comments&quot;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;We ran into some problems pretty early on, when our desired hardware was no longer available. Our first plan was to use a Raspberry Pi to do the processing and its associated camera to capture the images, but there was only one camera available and it was quickly taken. We were then forced to pivot to using our smartphone cameras and an app to send images to a server to do the processing. Additionally, we were not able to send the images over UPenn’s wifi network, as it was not secure. We decided to send all the data using a cell service hotspot, which greatly limited our bandwith and image quality, which negatively impacted rendering results.&lt;/p&gt;
+
+&lt;p&gt;Our team worked pretty well together, with each of us working on elements that we were already relatively familiar with, though we still found ourselves rushing to connect everything together in the last 8 or so hours.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/CandiaGu/PennAppsF18&quot;&gt;GitHub repo&lt;/a&gt;
+&lt;a href=&quot;https://devpost.com/software/u-i-fqyz58&quot;&gt;Devpost&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html"></summary></entry><entry><title type="html">Reflection on Summer 2018</title><link href="http://localhost:4000/summer2018-reflection/" rel="alternate" type="text/html" title="Reflection on Summer 2018" /><published>2018-08-20T00:00:00-04:00</published><updated>2018-08-20T00:00:00-04:00</updated><id>http://localhost:4000/summer2018-reflection</id><content type="html" xml:base="http://localhost:4000/summer2018-reflection/">&lt;p&gt;As my freshman year summer comes to an end, I wanted to gather all my thoughts and experiences from the last few months and organize all of it as a way to keep track of personal growth.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -33,7 +57,7 @@
 &lt;p&gt;The core functionality for our idea was a central API that would keep a track of all relevant data for all events, such as planned date, expected cost, and current contribution amount. This allows (in theory) for compatibility and synchronization across many devices and platforms, though we were only able to implement two in practice.&lt;/p&gt;
 
 &lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
-&lt;p&gt;The API extends Nessie with several new features, such as user logins, centralizing a third party account for travel funds, and issuing refunds. It was written using Flask-RESTful and is hosted using Heroku.&lt;/p&gt;
+&lt;p&gt;The API extends Nessie with several new features, such as user logins, centralizing a third party account for travel funds, and issuing refunds. It was written using Flask-RESTful and is hosted by Heroku.&lt;/p&gt;
 
 &lt;h3 id=&quot;messenger-bot&quot;&gt;Messenger Bot&lt;/h3&gt;
 &lt;p&gt;Every API feature was ported to a Messenger Bot, so a user can login and check his status simply through sending a message. Natural language processing recognizes different ways of writing statements with the same intent i.e. “How much money have we saved?” and “How much we got?” will both cause the bot to respond with the current progress.&lt;/p&gt;
