@@ -971,7 +971,7 @@ pre {
     z-index: 99;
 }
 .header-home > .link > .selfie {
-    width: 125px;
+    width: 200px;
     margin-bottom: 25px;
     border-radius: 100%;
     transition: all 0.2s;
