@@ -46,19 +46,19 @@ a {
 }
 /** * Remove the outline on focused links when they are also active or hovered * in all browsers (opinionated). */
 a:link {
-    color: #4b0082;
+    color: #3f73b5;
     text-decoration: none;
 }
 a:visited {
-    color: #4b0082;
+    color: #3f73b5;
     text-decoration: underline;
 }
 a:hover {
-    color: #4b0082;
+    color: #3f73b5;
     text-decoration: underline;
 }
 a:active {
-    color: #4b0082;
+    color: #3f73b5;
     text-decoration: underline;
 }
 /* Text-level semantics ========================================================================== */
@@ -469,7 +469,7 @@ h4 {
     font-size: 1.6rem;
 }
 a {
-    color: #4b0082;
+    color: #3f73b5;
     text-decoration: underline;
 }
 p {
@@ -642,7 +642,7 @@ pre {
     transition: all ease-in-out 0.2s;
 }
 .home > .list > .item:hover > .url > .title, .blog > .list > .item:hover > .url > .title, .projects > .list > .item:hover > .url > .title {
-    color: #4b0082;
+    color: #3f73b5;
 }
 .home > .list aside, .blog > .list aside, .projects > .list aside {
     position: relative;
@@ -801,7 +801,7 @@ pre {
     font-size: 1.6rem;
 }
 .tag-list > .list > .item:hover > .url > .title {
-    color: #4b0082;
+    color: #3f73b5;
 }
 .tag-list > .list aside {
     position: relative;
@@ -947,7 +947,7 @@ pre {
     margin: 0;
 }
 .footer-main > .link > .icon:hover {
-    fill: #4b0082 !important;
+    fill: #3f73b5 !important;
 }
 .footer-main > .extra {
     color: #aaa;
@@ -1264,7 +1264,7 @@ pre {
     width: 35px;
 }
 .social-links > .link:hover > .icon {
-    fill: #4b0082;
+    fill: #3f73b5;
 }
 .social-links > .link:hover:before {
     opacity: 1;
