@@ -995,9 +995,12 @@ pre {
     margin: 0 auto 30px;
 
     /** * animation stuff */
-    white-space: nowrap;
+    position: relative;
+    top: 50%;
     text-align: center;
+    white-space: nowrap;
     overflow: hidden;
+    transform: translateY(-50%);
     animation: typewriter 1.5s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
 }
