@@ -666,7 +666,7 @@ pre {
 }
 .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title {
     display: inline;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 .blog > .list > .item > .url > .emoji, .projects > .list > .item > .url > .emoji {
     display: inline;
@@ -1009,7 +1009,7 @@ pre {
     text-align: center;
     overflow: hidden;
     animation: typewriter 1.5s steps(44) 1s 1 normal both,
-               blinkTextCursor 500ms steps(44) infinite normal;
+               blinkTextCursor 0.5s steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}

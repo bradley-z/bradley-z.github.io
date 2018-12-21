@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -11,19 +12,19 @@
   <meta content="hi there i like to code" name="description"/>
   <meta content="Bradley Zhou" name="author"/>
   <title>
-   ⌨️ LILisp | Bradley Zhou
+   🖥 Embedded Real Time Kernel | Bradley Zhou
   </title>
-  <meta content="⌨️ LILisp" property="og:title"/>
+  <meta content="🖥 Embedded Real Time Kernel" property="og:title"/>
   <meta content="en_US" property="og:locale"/>
-  <meta content="My own Lisp implementation and interpreter" name="description"/>
-  <meta content="My own Lisp implementation and interpreter" property="og:description"/>
-  <meta content="/lilisp/" property="og:url"/>
+  <meta content="Real time kernel written to run on a Raspberry Pi" name="description"/>
+  <meta content="Real time kernel written to run on a Raspberry Pi" property="og:description"/>
+  <meta content="/embedded-kernel/" property="og:url"/>
   <meta content="Bradley Zhou" property="og:site_name"/>
-  <meta content="2018-07-10T00:00:00-04:00" property="article:published_time"/>
+  <meta content="2018-12-04T00:00:00-04:00" property="article:published_time"/>
   <script type="application/ld+json">
-   {"description":"My own Lisp implementation and interpreter","@type":"BlogPosting","url":"/lilisp/","headline":"⌨️ LILisp","dateModified":"2018-07-10T00:00:00-04:00","datePublished":"2018-07-10T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/lilisp/"},"@context":"http://schema.org"}
+   {"description":"Real time kernel written to run on a Raspberry Pi","@type":"BlogPosting","url":"/embedded-kernel/","headline":"🖥 Embedded Real Time Kernel","dateModified":"2018-12-04T00:00:00-04:00","datePublished":"2018-12-04T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/embedded-kernel/"},"@context":"http://schema.org"}
   </script>
-  <link href="/lilisp/" rel="canonical"/>
+  <link href="/embedded-kernel/" rel="canonical"/>
   <link href="../assets/images/favicon/favicon-32x32.png" rel="shortcut icon" type="image/png"/>
   <link href="../assets/images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="72x72"/>
   <link href="../assets/images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
@@ -34,7 +35,7 @@
  </head>
  <body>
   <div class="wrapper-large">
-   <div class="page ⌨️ lilisp">
+   <div class="page 🖥 embedded real time kernel">
     <nav class="nav">
      <ul class="list">
       <li class="item">
@@ -65,37 +66,31 @@
      </ul>
     </nav>
     <h1 class="title">
-     ⌨️ LILisp
+     🖥 Embedded Real Time Kernel
     </h1>
     <p>
-     <img alt="Alt Text" src="https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/lilisp.gif"/>
+     <img alt="Screenshot" src="https://raw.githubusercontent.com/bradley-z/bradley-z.github.io/master/assets/images/post_images/embedded-kernel.png"/>
     </p>
     <hr/>
     <h2 id="background">
      Background
     </h2>
     <p>
-     This project shared concepts with many of my previous assignments, namely 122’s Clac and C0VM, and 213’s Shell Lab. This project also served as a way for me to further explore my interest in systems programming. Additionally, much inspiration came from Daniel Holden’s book <em>Build Your Own Lisp</em>.
+      This project served as the principal assignment for ECE 18-349: Introduction to Embedded Systems and had the goal of integrating and extending knowledge from prior assignments to support running code on a bare metal Raspberry Pi.
     </p>
     <hr/>
     <h2 id="functionality">
      Functionality
     </h2>
     <p>
-     I used the Micro Parser Combinators library to automagically parse each input line into an abstract syntax tree. These were then converted into trees of what I defined as “lisp_vals,” which have one of many different types including numbers, symbols, or functions. Features of this implementation include builtin functions, user defined functions, recursion, loading files, conditionals, variables, mathematical and logical operations, and error handling. A more detailed list of functions can be found in the README <a href="https://github.com/bradley-z/LILisp/blob/master/README.md">here</a>.
+      Prior labs involved creating serial I/O drives, timers, interrupts, and system calls. The purpose of this project was to extend these to create a scheduler and a mutex interface to form a kernel that would be run on a Raspberry Pi's Broadcom BCM2836 processor. The scheduler was implemented using a rate-monotoninc algorithm that supported multiple tasks and the mutex interface was implemented using a highest locker's priority protocol to eliminate any possibility of deadlock.
     </p>
     <hr/>
     <h2 id="comments">
      Comments
     </h2>
     <p>
-     This project was definitely one of those that demonstrated the beauty (and delicacy) of C. Like Malloc Lab, this project was littered with seg faults and pointer errors; one malloc call of the wrong size could break all my functions. But as someone who’s favorite lab was Malloc, I found working through these errors to be rewarding, albeit definitely frustrating at times.
-    </p>
-    <hr/>
-    <p>
-     <a href="https://github.com/bradley-z/LILisp">
-      GitHub repo
-     </a>
+      Given that this project offered much autonomy and lots of open-ended design choices, it was significantly more enjoyable than previous assignments that just involved gluing together various functions from data sheets. Being able to come up with a large scale implementation idea, coding that, and running and debugging the cases to find that the idea actually worked was so much more satisfying than other cut and dry assignments. I actually wish I had more time to be able to further refine my ideas and code to further increase functionality, as not every idea was able to be implemented and tested in time. Unfortunately, I had to return the board the code was run on so it doesn't look like that's going to happen any time soon.
     </p>
     <footer class="footer-main">
      Bradley Zhou © 2018
