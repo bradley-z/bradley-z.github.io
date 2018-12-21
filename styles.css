@@ -461,12 +461,15 @@ h1 {
 }
 h2 {
     font-size: 2.2rem;
+    letter-spacing: 0.5px;
 }
 h3 {
     font-size: 2rem;
+    letter-spacing: 0.5px;
 }
 h4 {
     font-size: 1.6rem;
+    letter-spacing: 0.5px;
 }
 a {
     color: #0077CC;
@@ -634,12 +637,14 @@ pre {
     display: block;
     padding: 20px 0;
     text-decoration: none;
+    letter-spacing: 0.5px;
 }
 .home > .list > .item > .url > .title, .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title {
     margin: 0;
     width: 75%;
     font-weight: 500;
     transition: all ease-in-out 0.2s;
+    letter-spacing: 0.5px;
 }
 .home > .list > .item:hover > .url > .title, .blog > .list > .item:hover > .url > .title, .projects > .list > .item:hover > .url > .title {
     color: #0077CC;
@@ -654,12 +659,14 @@ pre {
     color: #aaa;
     text-align: right;
     transition: all ease-in-out 0.2s;
+    letter-spacing: 0.5px;
 }
 .home > .list .item:hover .url aside, .blog > .list .item:hover .url aside, .projects > .list .item:hover .url aside {
     color: #666;
 }
 .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title {
     display: inline;
+    letter-spacing: 0.5px;
 }
 .blog > .list > .item > .url > .emoji, .projects > .list > .item > .url > .emoji {
     display: inline;
@@ -919,6 +926,7 @@ pre {
     font-weight: 300;
     text-align: center;
     position: relative;
+    letter-spacing: 0.5px;
 }
 .footer-main:before {
     display: block;
@@ -985,6 +993,7 @@ pre {
 .header-home > .title {
     font-size: 4rem;
     margin: 0 0 13px;
+    letter-spacing: 5px;
 }
 .header-home > .description {
     font-size: 1.85rem;
@@ -993,6 +1002,7 @@ pre {
     color: #aaa;
     width: 70%;
     margin: 0 auto 30px;
+    letter-spacing: 0.5px;
 
     /** * animation stuff */
     white-space: nowrap;
@@ -1073,8 +1083,8 @@ pre {
 }
 .icon {
     display: inline-block;
-    width: 17px;
-    height: 17px;
+    width: 22px;
+    height: 22px;
     fill: #000;
     text-align: center;
     color: #000;
