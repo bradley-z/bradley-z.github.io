@@ -452,6 +452,7 @@ h1, h2, h3, h4 {
     color: #222;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    letter-spacing: 0.5px;
 }
 h1 {
     font-size: 3rem;
@@ -461,15 +462,12 @@ h1 {
 }
 h2 {
     font-size: 2.2rem;
-    letter-spacing: 0.5px;
 }
 h3 {
     font-size: 2rem;
-    letter-spacing: 0.5px;
 }
 h4 {
     font-size: 1.6rem;
-    letter-spacing: 0.5px;
 }
 a {
     color: #0077CC;
@@ -681,7 +679,12 @@ pre {
     text-align: center;
     margin-bottom: 6rem;
 }
-.about img {
+.about img:not(.profile) {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.profile {
     width: 50%;
     margin: 0 auto;
     display: block;
@@ -692,6 +695,7 @@ pre {
 .post > .title {
     text-align: center;
     margin-bottom: 3rem;
+    letter-spacing: 0.5px;
 }
 .post > .date, .post > .post-tags {
     color: #aaa;
@@ -993,7 +997,7 @@ pre {
 .header-home > .title {
     font-size: 4rem;
     margin: 0 0 13px;
-    letter-spacing: 5px;
+    letter-spacing: 7.5px;
 }
 .header-home > .description {
     font-size: 1.85rem;
@@ -1083,8 +1087,8 @@ pre {
 }
 .icon {
     display: inline-block;
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     fill: #000;
     text-align: center;
     color: #000;
