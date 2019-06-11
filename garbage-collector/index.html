@@ -90,6 +90,12 @@
     <p>
      The biggest limitation of mark and sweep garbage collection is that the algorithm needs to stop execution of the program in order to run the algorithm. I imagined that thread safety could eliminate this bottleneck, as multiple threads should theoretically be able to modify the list of blocks safely. I implemented this feature by just spawning a thread to run the garbage collector in parallel to the executing program, but I'm not going to claim that it works 100% correctly because I wasn't able to create a test suite comprehensive enough to test this and it seems too simple to work this way.
     </p>
+    <hr/>
+    <p>
+     <a href="https://github.com/bradley-z/418gc">
+      GitHub repo
+     </a>
+    </p>
     <footer class="footer-main">
      Bradley Zhou © 2018
     </footer>
